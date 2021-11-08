@@ -7,7 +7,9 @@ class Player
   end
 
   def lose_life
-    @current_lives - 1
+    @current_lives -= 1
   end
+
+  attr_accessor :current_lives
 
 end
